@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact Us By Mohammad Amin Nayebi</title>
+
+    <!-- Created By Mohammad Amin Nayebi -->
+
+    <!-- Plugins -->
+
+    <script src="jquery.min.js"></script>
+    <!--JQuery-->
+    <script src="prefixfree.min.js"></script>
+    <!--PreFixFree-->
+    <link rel="stylesheet" href="buttons.css"/>
+    <!--Buttons-->
+    <link rel="stylesheet" href="font-awesome-4.3.0/css/font-awesome.css"/>
+    <!--Icons-->
+
+    <style>
+        body{
+            background-image: linear-gradient(to right, #ff8d00, #f0ff00);
+        }
+        .Title{
+            font-size: 70px;
+            text-align: center;
+            font-family: Impact;
+            border-radius: 20px;
+            transition: 1s ease all;
+            cursor: default;
+            margin-top: 13px;
+            margin-bottom: 13px;
+        }
+        .Title:hover{
+            color: #535353;
+            transition: 1s ease all;
+            box-shadow: gray 0px 0px 20px;
+        }
+        .Title::selection{
+            color: whitesmoke;
+            background-color: crimson;
+        }
+
+        .SidebarL{
+            float: left;
+            border: solid black 2px;
+            width: 49%;
+            height: 803px;
+            margin-top: 0.7%;
+            margin-bottom: 0px;
+            border-radius: 5px;
+        }
+        .SidebarR{
+            float: right;
+            width: 49%;
+        }
+        .FAQ{
+            margin: 10px 0px 0px 20px;
+        }
+        .FAQitem{
+            cursor: pointer;
+            font-size: 30px;
+            font-family: Impact;
+            transition: all ease 0.5s;
+        }
+        .FAQitem:hover{
+            color: #363636;
+        }
+        .FAQitem::selection{
+            color: #fff;
+            background-color: crimson;
+        }
+        .FAQsubitem{
+            color: #363636;
+            cursor: text;
+            font-size: 20px;
+            margin-bottom: 0px;
+        }
+        .FAQsubitem::selection{
+            color: #fff;
+            background-color: crimson;
+        }
+        .Gmap{
+            border: solid 1px black;
+            border-radius: 5px;
+            margin: auto;
+            transition: all ease 1s;
+        }
+        .Gmap:hover{
+            opacity: 0.8;
+            border-radius: 500px;
+            transition: all ease 1s;
+        }
+        .FieldText{
+            font-size: 25px;
+            color: #000;
+            font-family: Arial;
+            cursor: default;
+            transition: ease all 0.5s;
+        }
+        .FieldText:hover{
+            color: #4b4b4b;
+            opacity: 0.8;
+            transition: ease all 0.5s;
+        }
+        .Inputbox{
+            width: 90%;
+            height: 15px;
+            font-size: 90%;
+            color: #ffffff;
+            background-color: black;
+            border-radius: 4px;
+            transition: all ease 1s;
+            font-family: Impact;
+            padding-left: 10px;
+            padding-right: 10px;
+        }
+        .Inputbox:focus {
+            border: 2px solid Grey;
+            border-radius: 15px;
+            background-color: #fff;
+            color: #000;
+            transition: all ease 1s;
+        }
+        .Inputbox::selection {
+            color: #ffffff;
+            background-color: crimson;
+        }
+        .Inputbox-Date{
+            width: 93%;
+            height: 25px;
+            font-size: 90%;
+            color: #ffffff;
+            background-color: black;
+            border-radius: 4px;
+            transition: all ease 1s;
+            font-family: "Arial Black";
+        }
+        .Inputbox-Date:focus{
+            border: 2px solid Grey;
+            border-radius: 15px;
+            background-color: #fff;
+            color: #000;
+            transition: all ease 1s;
+        }
+        .Inputbox-Date::selection{
+            color: #ffffff;
+            background-color: crimson;
+        }
+        .Messagebox{
+            width: 95%;
+            height: 100px;
+            font-size: 90%;
+            color: #ffffff;
+            background-color: black;
+            border-radius: 4px;
+            transition: all ease 1s;
+            font-family: "Arial Black";
+        }
+        .Messagebox::selection {
+            color: #ffffff;
+            background-color: crimson;
+        }
+        .Messagebox:focus{
+            border: 2px solid Grey;
+            border-radius: 15px;
+            background-color: #fff;
+            color: #000;
+            transition: all ease 1s;
+        }
+        .RadiobtnItem{
+            font-size: 90%;
+            color: #000;
+            font-family: "Arial Black";
+        }
+        .FAQ-title{
+            text-align: center;
+            font-size: 50px;
+            font-family: Impact;
+            margin-bottom: 0px;
+            margin-top: 10px;
+            cursor: default;
+        }
+    </style>
+</head>
+<body>
+
+<!-- header -->
+<header>
+    <div>
+        <h1 class="Title">Contact Us</h1>
+    </div>
+</header>
+
+<!-- body -->
+<div>
+    <!-- SideBar Left -->
+    <div class="SidebarL">
+        <h1 class="FAQ-title">FAQ Questions</h1>
+        <details class="FAQ">
+            <summary class="FAQitem">Where Are Your Company?</summary>
+            <p class="FAQsubitem">Exacly Located in Isfahan,Iran</p>
+        </details>
+        <details class="FAQ">
+            <summary class="FAQitem">How Can I Contact Company?</summary>
+            <p class="FAQsubitem">Use The form Or Use Contact items Like Social Media & PhoneNumber &...</p>
+        </details>
+        <details class="FAQ">
+            <summary class="FAQitem">What Is Company Phone Numbers?</summary>
+            <p class="FAQsubitem">09135671737 - 09397867234</p>
+        </details>
+        <details class="FAQ">
+            <summary class="FAQitem">When I get Response if I contact?</summary>
+            <p class="FAQsubitem">Support is 24h-a-day, so as Soon as possible</p>
+        </details>
+
+        <!-- Google Map -->
+        <br>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3361.320062228754!2d51.6684102!3d32.5976529!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3fbc37cf32b62c01%3A0xdf2db6a99d6de142!2z2K_Yp9mG2LTar9in2Ycg2LTZh9uM2K8g2YXZh9in2KzYsSDYp9i12YHZh9in2YY!5e0!3m2!1sfa!2snl!4v1642655286585!5m2!1sfa!2snl" width="100%" height="50%" allowfullscreen="" class="Gmap"></iframe>
+        <br><br>
+
+        <!-- Social Media -->
+        <center>
+            <a style="display: inline-block;vertical-align: bottom;" href="#"
+               class="button button-longshadow-left button-primary button-3d">
+                <span class="fa fa-facebook"></span></a>
+            <a style="display: inline-block;vertical-align: bottom;" href="#"
+               class="button button-longshadow-right button-caution button-3d">
+                <span class="fa fa-google-plus"></span></a>
+            <a style="display: inline-block;vertical-align: bottom;" href="#"
+               class="button button-longshadow-left button-action button-3d">
+                <span class="fa fa-whatsapp"></span></a>
+            <a style="display: inline-block;vertical-align: bottom;" href="#"
+               class="button button-longshadow-right button-highlight button-3d">
+                <span class="fa fa-rss"></span></a>
+            <a style="display: inline-block;vertical-align: bottom;" href="#"
+               class="button button-longshadow-left button-primary button-3d">
+                <span class="fa fa-twitter"></span></a>
+        </center>
+
+    </div>
+
+    <!-- SideBar Right -->
+    <div class="SidebarR">
+        <form action="data.php" method="get">
+            <fieldset style="height: 803px;">
+                <legend><b><span style="color: #434343;">Fill the fields to Contact Us</span></b></legend>
+                <center>
+                    <br>
+                    <label for = "Name" class="FieldText">Name : </label><br>
+                    <input name="name" id = "Name" class="Inputbox" type="text" autocomplete="on" autofocus="on" />
+                    <br><br>
+                    <label for = "LastName" class="FieldText">Last Name : </label><br>
+                    <input name="lastname" id = "LastName" class="Inputbox" type="text" autocomplete="on" autofocus="on" />
+                    <br><br>
+                    <label class="FieldText" for = "Company" >Company : </label><br>
+                    <input name="company" id = "Company" class="Inputbox" type="text" autocomplete="on" autofocus="on" />
+                    <br><br>
+                    <label for = "Email" class="FieldText">Person/Company Email : </label><br>
+                    <input name="email" id = "Email" class="Inputbox" type="email" autocomplete="on" autofocus="on" />
+                    <br><br>
+                    <label for = "Website"class="FieldText">Person/Company Website : </label><br>
+                    <input name="website" id = "Website" class="Inputbox" type="url" />
+                    <br><br>
+                    <label for = "Country" class="FieldText">Country :</label><br>
+                    <input name="country" class="Inputbox" id ="Country" type="text" />
+                    <br><br>
+                    <label for = "Birthday" class="FieldText">Your Birthday :</label>
+                    <input name="birthday" id = "Birthday" style="text-align: center" class="Inputbox-Date" type="date" />
+                    <br><br>
+                    <label class="FieldText">Gender :</label><br>
+                    <input style="cursor: pointer;" type="radio" /><b class="RadiobtnItem">Male</b>
+                    <input style="cursor: pointer;" type="radio" /><b class="RadiobtnItem">Female</b>
+                    <input style="cursor: pointer;" type="radio" /><b class="RadiobtnItem">Other</b>
+                    <br><br>
+                    <label for = "Message" class="FieldText">Your Message :</label> <br>
+                    <textarea name="message" id = "Message" class="Messagebox"></textarea>
+                    <br><br>
+                    <input style="width:50%;display: inline-block" href="#" class="button button-3d button-stacked button-rounded" class="Submitbtn" type="submit" />
+                    <br>
+                </center>
+            </fieldset>
+            <br>
+        </form>
+    </div>
+</div>
+
+
+</body>
+</html>
